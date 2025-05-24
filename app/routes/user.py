@@ -7,7 +7,7 @@ import logging
 
 logger = logging.getLogger('fastapi')
 
-user_router = APIRouter()   
+user_router = APIRouter() 
 
 # Register User
 @user_router.post("/register")

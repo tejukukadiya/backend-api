@@ -1,0 +1,285 @@
+2024-01-09 17:21:09,865 - fastapi - INFO - Registering user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/register
+2024-01-09 17:21:24,287 - fastapi - INFO - Logging in user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/login
+2024-01-09 17:21:24,289 - fastapi - ERROR - Error in login: unsupported type for timedelta hours component: str
+2024-01-09 17:21:41,479 - fastapi - INFO - Logging in user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/login
+2024-01-09 17:22:44,023 - fastapi - INFO - Logging in user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/login
+2024-01-09 17:23:32,731 - fastapi - INFO - Registering user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/register
+2024-01-09 17:24:37,989 - fastapi - INFO - Logging in user with email: sohil@gmail.com - POST - http://0.0.0.0:7001/api/user/login
+2024-01-09 17:24:44,835 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/
+2024-01-09 17:24:50,717 - fastapi - ERROR - Error in create_product: 'CreateProduct' object has no attribute 'name'
+2024-01-09 17:25:13,212 - fastapi - INFO - 659d332d5aaf29e1f649aede added product: Watch - POST - http://0.0.0.0:7001/api/product/
+2024-01-09 17:25:15,934 - fastapi - INFO - 659d332d5aaf29e1f649aede added product: Watch - POST - http://0.0.0.0:7001/api/product/
+2024-01-09 17:26:04,665 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/
+2024-01-09 17:26:15,797 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2024-01-09 17:26:44,033 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2024-01-09 17:27:01,775 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2024-01-09 17:27:16,782 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:27:33,543 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:27:47,682 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:27:47,684 - fastapi - ERROR - Error in get_product_by_id: Object of type ObjectId is not JSON serializable
+2024-01-09 17:28:14,757 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:29:08,709 - fastapi - INFO - 659d332d5aaf29e1f649aede deleted product with id: 659d34210d97b8e22d0117c7 - DELETE - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:29:27,402 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:29:40,801 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched product with id: 659d34210d97b8e22d0117c7 - GET - http://0.0.0.0:7001/api/product/659d34210d97b8e22d0117c7
+2024-01-09 17:30:45,915 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2024-01-09 17:31:14,420 - fastapi - INFO - 659d332d5aaf29e1f649aede updated product with id: 659d34230d97b8e22d0117c8 - PUT - http://0.0.0.0:7001/api/product/659d34230d97b8e22d0117c8
+2024-01-09 17:31:18,826 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2024-01-09 17:31:30,820 - fastapi - INFO - 659d332d5aaf29e1f649aede updated product with id: 659d34230d97b8e22d0117c8 - PUT - http://0.0.0.0:7001/api/product/659d34230d97b8e22d0117c8
+2024-01-09 17:31:33,647 - fastapi - INFO - 659d332d5aaf29e1f649aede added product: Watch - POST - http://0.0.0.0:7001/api/product/
+2024-01-09 17:31:38,787 - fastapi - INFO - 659d332d5aaf29e1f649aede fetched all products - GET - http://0.0.0.0:7001/api/product/?page=1&per_page=1
+2025-05-21 16:04:00,374 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:04:00,556 - fastapi - ERROR - Error in register_user: Incorrect AES key length (1 bytes)
+2025-05-21 16:06:30,520 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:06:30,552 - fastapi - ERROR - Error in register_user: Incorrect AES key length (44 bytes)
+2025-05-21 16:06:33,748 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:06:33,750 - fastapi - ERROR - Error in register_user: Incorrect AES key length (44 bytes)
+2025-05-21 16:06:34,446 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:06:34,448 - fastapi - ERROR - Error in register_user: Incorrect AES key length (44 bytes)
+2025-05-21 16:09:02,113 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:09:02,147 - fastapi - ERROR - Error in register_user: Incorrect AES key length (44 bytes)
+2025-05-21 16:09:03,156 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:09:03,159 - fastapi - ERROR - Error in register_user: Incorrect AES key length (44 bytes)
+2025-05-21 16:11:44,630 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:11:44,658 - fastapi - ERROR - Error in register_user: 1 validation error for UserSignUp
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='string', input_type=str]
+2025-05-21 16:12:44,963 - fastapi - INFO - Registering user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:13:28,397 - fastapi - INFO - Logging in user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-21 16:36:11,588 - fastapi - INFO - Registering user with email: reha@gmail.com - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 16:40:28,120 - fastapi - INFO - Logging in user with email: reha@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-21 16:52:21,616 - fastapi - ERROR - Error in create_product: name 'current_user' is not defined
+2025-05-21 16:56:42,675 - fastapi - INFO - 682db3a342c21083e3253e9c added product: soap - POST - http://127.0.0.1:7001/api/product/
+2025-05-21 23:40:22,634 - fastapi - INFO - Registering user with email: string - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 23:40:22,741 - fastapi - ERROR - Error in register_user: 1 validation error for UserSignUp
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='string', input_type=str]
+2025-05-21 23:40:52,560 - fastapi - INFO - Logging in user with email: string - POST - http://127.0.0.1:7001/api/user/login
+2025-05-21 23:54:56,064 - fastapi - INFO - Registering user with email: piya@gmail.com - POST - http://127.0.0.1:7001/api/user/register
+2025-05-21 23:57:56,078 - fastapi - INFO - Logging in user with email: piya@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-22 00:13:51,220 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: shampoo - POST - http://127.0.0.1:7001/api/product/
+2025-05-22 09:40:12,506 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 09:43:36,512 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 09:44:59,780 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: "id":"682db872ada8b25b6e9b3a58" - GET - http://127.0.0.1:7001/api/product/"id":"682db872ada8b25b6e9b3a58"
+2025-05-22 09:45:29,439 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: id:682db872ada8b25b6e9b3a58 - GET - http://127.0.0.1:7001/api/product/id:682db872ada8b25b6e9b3a58
+2025-05-22 09:45:43,409 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: 682db872ada8b25b6e9b3a58 - GET - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:46:38,073 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated product with id: 682db872ada8b25b6e9b3a58 - PUT - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:47:27,797 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated product with id: 682db872ada8b25b6e9b3a58 - PUT - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:47:44,136 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: 682db872ada8b25b6e9b3a58 - GET - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:48:09,670 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted product with id: 682db872ada8b25b6e9b3a58 - DELETE - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:48:16,135 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: 682db872ada8b25b6e9b3a58 - GET - http://127.0.0.1:7001/api/product/682db872ada8b25b6e9b3a58
+2025-05-22 09:48:33,587 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 09:49:23,678 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: soap - POST - http://127.0.0.1:7001/api/product/
+2025-05-22 09:49:47,384 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: soap - POST - http://127.0.0.1:7001/api/product/
+2025-05-22 09:49:53,233 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 10:18:02,463 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted product with id: 682ea5cbc2bcb07ff789f10d - DELETE - http://127.0.0.1:7001/api/product/682ea5cbc2bcb07ff789f10d
+2025-05-22 10:18:15,397 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 12:54:14,186 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: ABC - POST - http://127.0.0.1:7001/api/category/
+2025-05-22 12:54:24,189 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 12:54:24,201 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 12:56:31,745 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 15:02:56,631 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: XYZ - POST - http://127.0.0.1:7001/api/category/
+2025-05-22 15:03:08,941 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:03:08,945 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:05:16,284 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:05:16,288 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:05:26,903 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:05:26,907 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:07:16,403 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:07:16,406 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:07:19,802 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:07:19,806 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:07:33,594 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:07:33,597 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:09:30,130 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 15:10:48,465 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:10:48,469 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:18:39,507 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:18:39,512 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:27:37,151 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:27:37,155 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:34:37,003 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:34:37,006 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:34:40,452 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:34:40,455 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:42:57,623 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:42:57,626 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:44:55,244 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:44:55,247 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:47:18,417 - fastapi - INFO - Registering user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/register
+2025-05-22 15:47:59,324 - fastapi - INFO - Logging in user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-22 15:48:37,202 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:48:37,207 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:49:34,214 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:49:34,216 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:49:37,085 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:49:37,089 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:49:38,630 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:49:38,634 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:51:15,142 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:51:15,145 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:54:25,998 - fastapi - INFO - 682dae25f5cd850915852654 fetched product with id: {682eef482c09c8592ee1c328} - GET - http://127.0.0.1:7001/api/category/{682eef482c09c8592ee1c328}
+2025-05-22 15:54:37,422 - fastapi - INFO - 682dae25f5cd850915852654 fetched product with id: 682eef482c09c8592ee1c328 - GET - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 15:54:49,217 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:54:49,220 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:57:23,650 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 15:57:23,653 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 15:57:56,802 - fastapi - INFO - 682dae25f5cd850915852654 fetched category with id: 682ed11e3fee2f1327a853d6 - GET - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 15:58:41,445 - fastapi - INFO - 682dae25f5cd850915852654 fetched category with id: 682dae25f5cd850915852654 - GET - http://127.0.0.1:7001/api/category/682dae25f5cd850915852654
+2025-05-22 15:59:08,162 - fastapi - INFO - 682dae25f5cd850915852654 fetched category with id: 682eef482c09c8592ee1c328 - GET - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 15:59:26,845 - fastapi - INFO - 682dae25f5cd850915852654 fetched category with id: 682eef482c09c8592ee1c328 - GET - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 15:59:44,923 - fastapi - INFO - 682dae25f5cd850915852654 deleted category with id: 682eef482c09c8592ee1c328 - DELETE - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 16:00:11,662 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:00:11,677 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:00:56,483 - fastapi - INFO - 682dae25f5cd850915852654 fetched category with id: 682eef482c09c8592ee1c328 - GET - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 16:01:08,386 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:01:08,388 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:01:25,398 - fastapi - INFO - 682dae25f5cd850915852654 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 16:01:48,997 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:01:49,001 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:07:02,076 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:07:02,078 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:09:30,839 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:09:30,844 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:23:43,649 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:23:43,653 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:27:18,775 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:27:18,778 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:30:10,332 - fastapi - INFO - Logging in user with email: piya@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-22 16:32:44,959 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 16:33:00,612 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:33:00,615 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:34:15,111 - fastapi - INFO - Logging in user with email: piya@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-22 16:36:05,716 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted product with id: 682ea5e3c2bcb07ff789f10e - DELETE - http://127.0.0.1:7001/api/product/682ea5e3c2bcb07ff789f10e
+2025-05-22 16:36:37,638 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-22 16:38:02,535 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:38:02,538 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:38:50,918 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:38:50,922 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:38:53,378 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:38:53,381 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:41:16,694 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:41:16,698 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:42:09,367 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682eef482c09c8592ee1c328 - GET - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 16:42:28,396 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682eef482c09c8592ee1c328 - DELETE - http://127.0.0.1:7001/api/category/682eef482c09c8592ee1c328
+2025-05-22 16:42:43,764 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:42:43,767 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:45:06,018 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682ed11e3fee2f1327a853d6 - PUT - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 16:45:23,679 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:45:23,682 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:47:25,786 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:47:25,789 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:48:26,724 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: PQR - POST - http://127.0.0.1:7001/api/category/
+2025-05-22 16:49:33,944 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:49:33,951 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:49:47,293 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:49:47,297 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:51:52,628 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:51:52,631 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:53:44,720 - fastapi - INFO - Logging in user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-22 16:54:05,737 - fastapi - INFO - 682dae25f5cd850915852654 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:54:05,751 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 16:54:55,782 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 16:54:55,786 - fastapi - ERROR - Error in get_category: cannot access local variable 'total_pages' where it is not associated with a value
+2025-05-22 17:02:17,969 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 17:02:17,975 - fastapi - ERROR - Error in get_category: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-05-22 17:43:25,966 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 17:43:25,974 - fastapi - ERROR - Error in get_category: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-05-22 17:48:32,232 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 17:48:32,241 - fastapi - ERROR - Error in get_category: 2 validation errors for GetCategory
+_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('682ed11e3fee2f1327a853d6'), input_type=ObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+created_at
+  Field required [type=missing, input_value={'_id': ObjectId('682ed11...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 17:53:35,614 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 17:53:35,619 - fastapi - ERROR - Error in get_category: 2 validation errors for GetCategory
+_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('682ed11e3fee2f1327a853d6'), input_type=ObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+created_at
+  Field required [type=missing, input_value={'_id': ObjectId('682ed11...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 17:54:22,250 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 17:54:22,257 - fastapi - ERROR - Error in get_category: 2 validation errors for GetCategory
+_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('682ed11e3fee2f1327a853d6'), input_type=ObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+created_at
+  Field required [type=missing, input_value={'_id': ObjectId('682ed11...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 18:25:09,258 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 18:25:09,264 - fastapi - ERROR - Error in get_category: 1 validation error for GetCategory
+created_at
+  Field required [type=missing, input_value={'_id': '682ed11e3fee2f13...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 21:04:43,807 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:04:43,854 - fastapi - ERROR - Error in get_category: 1 validation error for GetCategory
+created_at
+  Field required [type=missing, input_value={'_id': '682ed11e3fee2f13...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 21:23:48,728 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:28:43,098 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added category: DEF - POST - http://127.0.0.1:7001/api/category/
+2025-05-22 21:28:52,180 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:31:24,498 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:31:24,503 - fastapi - ERROR - Error in get_category: 1 validation error for GetCategory
+created_at
+  Field required [type=missing, input_value={'_id': '682ed11e3fee2f13...0), 'is_deleted': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-22 21:35:44,656 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:35:44,669 - fastapi - ERROR - Error in get_category: Object of type datetime is not JSON serializable
+2025-05-22 21:35:46,963 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:35:46,969 - fastapi - ERROR - Error in get_category: Object of type datetime is not JSON serializable
+2025-05-22 21:36:54,743 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:42:41,962 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:42:41,967 - fastapi - ERROR - Error in get_category: BaseModel.dict() takes 1 positional argument but 2 were given
+2025-05-22 21:42:56,234 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:44:36,556 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:46:30,368 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682ed11e3fee2f1327a853d6 - DELETE - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 21:46:47,177 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:47:40,864 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added category: PQR - POST - http://127.0.0.1:7001/api/category/
+2025-05-22 21:47:50,758 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:48:36,987 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f4e2453a01590b9ca930b - PUT - http://127.0.0.1:7001/api/category/682f4e2453a01590b9ca930b
+2025-05-22 21:48:56,857 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-22 21:49:56,153 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682ed11e3fee2f1327a853d6 - DELETE - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 21:50:06,368 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682ed11e3fee2f1327a853d6 - PUT - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 21:50:17,069 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682ed11e3fee2f1327a853d6 - GET - http://127.0.0.1:7001/api/category/682ed11e3fee2f1327a853d6
+2025-05-22 21:50:27,388 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:07:46,220 - fastapi - INFO - Logging in user with email: neha@gmail.com - POST - http://127.0.0.1:7001/api/user/login
+2025-05-23 10:08:25,226 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-23 10:10:11,749 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted product with id: 682e1ee7e279ac16a7d0ae41 - DELETE - http://127.0.0.1:7001/api/product/682e1ee7e279ac16a7d0ae41
+2025-05-23 10:10:55,913 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added product: soap - POST - http://127.0.0.1:7001/api/product/
+2025-05-23 10:11:01,569 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-23 10:12:07,048 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated product with id: 682ffc579fa1e01eb4b2d9e8 - PUT - http://127.0.0.1:7001/api/product/682ffc579fa1e01eb4b2d9e8
+2025-05-23 10:12:19,117 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all products - GET - http://127.0.0.1:7001/api/product/
+2025-05-23 10:13:02,479 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:13:50,219 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added category: ABC - POST - http://127.0.0.1:7001/api/category/
+2025-05-23 10:13:58,757 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:15:19,215 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f080281604a5e04529297 - PUT - http://127.0.0.1:7001/api/category/682f080281604a5e04529297
+2025-05-23 10:15:19,215 - fastapi - ERROR - Error in update_category_by_id: cannot access local variable 'update' where it is not associated with a value
+2025-05-23 10:15:32,563 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f080281604a5e04529297 - PUT - http://127.0.0.1:7001/api/category/682f080281604a5e04529297
+2025-05-23 10:15:32,564 - fastapi - ERROR - Error in update_category_by_id: cannot access local variable 'update' where it is not associated with a value
+2025-05-23 10:15:43,755 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682f080281604a5e04529297 - GET - http://127.0.0.1:7001/api/category/682f080281604a5e04529297
+2025-05-23 10:15:55,732 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:16:49,665 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682ffd069fa1e01eb4b2d9e9 - GET - http://127.0.0.1:7001/api/category/682ffd069fa1e01eb4b2d9e9
+2025-05-23 10:17:37,819 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682ffc579fa1e01eb4b2d9e8 - GET - http://127.0.0.1:7001/api/category/682ffc579fa1e01eb4b2d9e8
+2025-05-23 10:17:51,692 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched product with id: 682ffc579fa1e01eb4b2d9e8 - GET - http://127.0.0.1:7001/api/product/682ffc579fa1e01eb4b2d9e8
+2025-05-23 10:18:33,939 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682ffd069fa1e01eb4b2d9e9 - GET - http://127.0.0.1:7001/api/category/682ffd069fa1e01eb4b2d9e9
+2025-05-23 10:24:22,380 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682ffd069fa1e01eb4b2d9e9 - GET - http://127.0.0.1:7001/api/category/682ffd069fa1e01eb4b2d9e9
+2025-05-23 10:26:56,157 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f49b3e9d538aeea6806aa - PUT - http://127.0.0.1:7001/api/category/682f49b3e9d538aeea6806aa
+2025-05-23 10:26:56,157 - fastapi - ERROR - Error in update_category_by_id: cannot access local variable 'update' where it is not associated with a value
+2025-05-23 10:29:24,376 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f49b3e9d538aeea6806aa - PUT - http://127.0.0.1:7001/api/category/682f49b3e9d538aeea6806aa
+2025-05-23 10:29:59,664 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682f49b3e9d538aeea6806aa - GET - http://127.0.0.1:7001/api/category/682f49b3e9d538aeea6806aa
+2025-05-23 10:30:44,369 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682f080281604a5e04529297 - DELETE - http://127.0.0.1:7001/api/category/682f080281604a5e04529297
+2025-05-23 10:30:56,896 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:38:59,792 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched category with id: 682f080281604a5e04529297 - GET - http://127.0.0.1:7001/api/category/682f080281604a5e04529297
+2025-05-23 10:39:12,396 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:44:18,661 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added category: DEF - POST - http://127.0.0.1:7001/api/category/
+2025-05-23 10:44:40,488 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:45:11,402 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 updated category with id: 682f49b3e9d538aeea6806aa - PUT - http://127.0.0.1:7001/api/category/682f49b3e9d538aeea6806aa
+2025-05-23 10:45:20,289 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682f49b3e9d538aeea6806aa - DELETE - http://127.0.0.1:7001/api/category/682f49b3e9d538aeea6806aa
+2025-05-23 10:45:34,373 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:47:08,053 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 deleted category with id: 682ffd069fa1e01eb4b2d9e9 - DELETE - http://127.0.0.1:7001/api/category/682ffd069fa1e01eb4b2d9e9
+2025-05-23 10:47:18,912 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/
+2025-05-23 10:48:10,988 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 added category: XYZ - POST - http://127.0.0.1:7001/api/category/
+2025-05-23 10:48:20,265 - fastapi - INFO - 682e1a78e279ac16a7d0ae40 fetched all category- GET - http://127.0.0.1:7001/api/category/

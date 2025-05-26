@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field, EmailStr
 from datetime import datetime
 
-
 class CreateUser(BaseModel):
     email: str = Field(...)
     password: str = Field(...)

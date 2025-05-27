@@ -319,3 +319,29 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-27 00:16:50,277 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\fast-api-boiler-plate\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-27 10:09:23,686 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\fast-api-boiler-plate\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-27 10:25:37,438 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\fast-api-boiler-plate\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-27 10:26:59,944 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:28:16,711 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:37:07,052 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:39:56,117 - fastapi - ERROR - Error in create_product: 'AdminInDB' object has no attribute '_id'
+2025-05-27 10:41:46,809 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:46:22,480 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:46:25,852 - fastapi - ERROR - Error in create_product: 'AdminInDB' object is not subscriptable
+2025-05-27 10:51:14,339 - fastapi - INFO - 683541fc8c9e46e8a7a9423c added product: soap - POST - http://127.0.0.1:7001/api/product/admin

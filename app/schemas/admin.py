@@ -5,6 +5,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from app.utils.mongo import db
 from app.models.admin import AdminInDB
+from bson import ObjectId
 
 SECRET_KEY = "63e21c94db1216935d3cd548c5952f6bd544ac535d75c1ae7855bf969e3c338b"
 ALGORITHM = "HS256"
@@ -25,13 +26,14 @@ def create_token(data: dict, expires_delta: timedelta):
     to_encode.update({"exp": expire})
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
-async def get_admin(username: str):
-    admin = await db["admin"].find_one({"username":username})
+async def get_admin_by_id(username: str):
+    admin = await db["admin"].find_one({"username": username})
     if admin:
+        admin["id"] = str(admin["_id"])
         return AdminInDB(**admin)
 
 async def authenticate_admin(username: str, password: str):
-    admin = await get_admin(username)
+    admin = await get_admin_by_id(username)
     if not admin or not verify_password(password, admin.hashed_password):
         return False
     return admin
@@ -49,7 +51,7 @@ async def get_current_admin(token: str = Depends(oauth2_scheme)):
     except JWTError:
         raise credentials_exception
 
-    admin = await get_admin(username)
+    admin = await get_admin_by_id(username)
     if admin is None:
         raise credentials_exception
     return admin

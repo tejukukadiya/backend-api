@@ -5,6 +5,7 @@ from app.core.config import settings
 from app.models.product import CreateProduct
 from app.schemas.product import ProductService
 from app.utils.auth import get_current_user
+from app.schemas.admin import get_current_admin
 import logging
 
 logger = logging.getLogger('fastapi')
@@ -36,7 +37,31 @@ async def create_product(request:Request, product: CreateProduct, current_user =
                 "data" : "Internal Server Error"
             }
         )
-        
+ #create product admin  
+@product_router.post("/admin")
+async def create_product(request:Request,product:CreateProduct,current_admin=Depends(get_current_admin)):
+    try:
+        admin_id= str(current_admin.id)
+        logger.info(f"{admin_id} added product: {product.product_name} - {request.method} - {request.url}")
+        product_service = ProductService()
+        await product_service.add_product(product.dict())
+        return JSONResponse(
+            status_code=status.HTTP_201_CREATED,
+            content={
+                "status" : True,
+                "data" : "Product added successfully",
+            }
+        )
+    except Exception as e:
+        logger.error(f"Error in create_product: {e}")
+        return JSONResponse(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            content={
+                "status" : False,
+                "data" : "Internal Server Error"
+            }
+        )
+  
 # Get all products
 @product_router.get("/")
 async def get_products(request:Request, page:int= 1, per_page:int= 10,current_user = Depends(get_current_user)):

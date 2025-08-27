@@ -9,4 +9,4 @@ runs on uvicorn server on 8003 port.
 """
 
 if __name__ == "__main__":
-    os.system("uvicorn app.main:app --reload --port 0001")
+    os.system("uvicorn app.main:app --reload --port 8001")
